@@ -9,7 +9,9 @@ This repository documents the solutions and methodologies our team used to solve
 - **Forensics** 🔍 — File analysis, metadata extraction, and memory forensics.  
 - **Web Exploitation** 🌐 — SQL injections, XSS, and authentication bypasses.  
 - **Reverse Engineering** 🔄 — Decompilation, debugging, and binary exploitation.  
-- **Miscellaneous** 🎭 — Steganography, encoding schemes, and OSINT challenges.  
+- **Miscellaneous** 🎭 — Steganography, encoding schemes, and general problem-solving.  
+- **OSINT** 🕵️ — Open-source intelligence gathering, reconnaissance, and information extraction.  
+- **PWN** 💣 — Binary exploitation, buffer overflows, and privilege escalation.  
 
 Each challenge write-up includes:  
 - A brief problem statement (without violating CTF rules).  
@@ -18,6 +20,4 @@ Each challenge write-up includes:
 - Lessons learned and takeaways.  
 
 ### Contact  
-If you have any queries, feel free to open an issue or reach out to the contributors via GitHub.  
-
-Happy hacking! 🚀  
+If you have any queries, feel free to open an issue or reach out to the contributors via GitHub.
