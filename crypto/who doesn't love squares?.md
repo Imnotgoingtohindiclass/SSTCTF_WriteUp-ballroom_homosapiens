@@ -1,4 +1,5 @@
 # who doesn't love squares?
+**Difficulty: Easy**
 ### Challenge:
 I love squares, what about you?
 
