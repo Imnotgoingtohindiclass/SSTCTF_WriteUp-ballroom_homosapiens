@@ -8,17 +8,18 @@
 ## Solution:
 The first clue to solving this challenge is that the encrypted text starts with vinegar. Vinegar is a sour-tasting liquid made through the fermentation of ethanol by acetic acid bacteria. It is commonly used in cooking, cleaning, and food preservation. Not very useful in terms of cybersecurity and capture-the-flags. But from experience, we know that there is an encryption method which sounds similar to vinegar, called vigenere. 
 
-Here is a breakdown of how a vigenere cipher works:**Plaintext:**
+Here is a breakdown of how a vigenere cipher works:
+
+Say we are given a plaintext that we want to send to our ally which has to be encrypted quickly.
 ```
 ATTACKATDAWN
 ```
 
-**Key (repeated):**
+In order to encrypt this, we need an encryption key. The lenght of the encryption key has to be equal to the lenght of the ciphertext. Let's say we pick the key `LEMON`. Since `ATTACKATDAWN` has 12 characters, while `LEMON` has 5 characters, we can repeat the key until it is equal to the lenght of the ciphertext, thus getting a key of:
 ```
 LEMONLEMONLE
 ```
 
-### 3. **Encryption Process**
 Each letter in the plaintext is shifted forward in the alphabet based on the corresponding letter in the key.
 
 #### **Formula:**
