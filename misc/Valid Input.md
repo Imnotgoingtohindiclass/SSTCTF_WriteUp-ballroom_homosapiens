@@ -21,4 +21,6 @@ else:
     print('Input validation failed!')
 ```
 The code require us to input a value that passses through `.isnumeric()` but not `int()` function such that we trigger `ValueError`.
-Any other language that represents a number should suffice. An example would be 三. Inputting that character will give you the flag **sstctf{}**.
+The `isnumeric()` method returns True if all the characters are numeric (0-9), otherwise False. Exponents, like ² and ¾ are also considered to be numeric values.
+However, such values cannot be used in the `int()` function. Hence, the function fails and a `ValueError` error pops up.
+To achieve this, the above values or any other language that represents a number should suffice. An example would be 三. Inputting that character will give you the flag **sstctf{}**.
