@@ -38,3 +38,5 @@ print('ct =',ct)
 ### flag format is xsstctf{REDACTED}
 
 ## Solution:
+
+Before we start coding out a program to solve the challenge, we have to understand exactly how the solution 
