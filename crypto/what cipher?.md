@@ -57,4 +57,11 @@ where:
 
 Using the same example, we reverse the shifts and retrieve the original plaintext: **"ATTACKATDAWN"**.
 
-Knowing how a vigenere cipher works allows us to reverse the key, and thus find the plaintext encoded to vinegar{t1wzy3vl_15_ffu_wp+x3y_oy3i4m_4wxo0gex_w0+s_ey3_uliznyy3}. Since we know that xsstctf is encoded to vinegar, we can figure out that the first 7 characters of the key is 
+Knowing how a vigenere cipher works allows us to reverse the key, and thus find the plaintext encoded to vinegar{t1wzy3vl_15_ffu_wp+x3y_oy3i4m_4wxo0gex_w0+s_ey3_uliznyy3}. Since we know that xsstctf is encoded to vinegar, we can figure out that the first 7 characters of the key is `YQVLEHM`.
+
+Without any extra clues, it is impossible to figure out the rest of the key. But what we know from vigenere ciphers, is that if the lenght of the key is not equal to the lenght of the ciphertext, so it is not too far fetched to think that maybe this 7 character key `YQVLEHM` was repeated. 
+
+Testing this theory, by decoding vinegar{t1wzy3vl_15_ffu_wp+x3y_oy3i4m_4wxo0gex_w0+s_ey3_uliznyy3} with YQVLEHM using [dCode](https://www.dcode.fr/vigenere-cipher).
+This gives us the flag xsstctf{v1gen3re_15_the_be+t3r_ca3s4r_4lth0ugh_b0+h_ar3_insecur3}
+
+flag: xsstctf{v1gen3re_15_the_be+t3r_ca3s4r_4lth0ugh_b0+h_ar3_insecur3}
