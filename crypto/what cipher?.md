@@ -33,7 +33,6 @@ where:
 - `K_i` = Key letter at position `i` (converted similarly)
 - `mod 26` ensures values wrap around within the alphabet
 
-#### **Example:**
 | Plaintext | A | T | T | A | C | K | A | T | D | A | W | N |
 |-----------|---|---|---|---|---|---|---|---|---|---|---|---|
 | Key       | L | E | M | O | N | L | E | M | O | N | L | E |
@@ -45,7 +44,6 @@ So, the final ciphertext is:
 LXFOPVEFRNHR
 ```
 
-### 4. **Decryption Process**
 To decrypt, the process is reversed by shifting **backward** using the key.
 
 #### **Formula:**
@@ -58,3 +56,5 @@ where:
 - `K_i` = Key letter at position `i`
 
 Using the same example, we reverse the shifts and retrieve the original plaintext: **"ATTACKATDAWN"**.
+
+Knowing how a vigenere cipher works allows us to reverse the key, and thus find the plaintext encoded to vinegar{t1wzy3vl_15_ffu_wp+x3y_oy3i4m_4wxo0gex_w0+s_ey3_uliznyy3}. Since we know that xsstctf is encoded to vinegar, we can figure out that the first 7 characters of the key is 
