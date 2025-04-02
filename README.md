@@ -14,10 +14,9 @@ This repository documents the solutions and methodologies our team used to solve
 - **PWN** 💣 — Binary exploitation, buffer overflows, and privilege escalation.  
 
 Each challenge write-up includes:  
-- A brief problem statement (without violating CTF rules).  
+- A brief problem statement.  
 - Step-by-step analysis of how we approached the challenge.  
 - Scripts, payloads, and tools used.  
-- Lessons learned and takeaways.  
 
 ### Contact  
 If you have any queries, feel free to open an issue or reach out to the contributors via GitHub.
